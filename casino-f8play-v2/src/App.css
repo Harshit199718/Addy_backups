@@ -1,0 +1,305 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding: env(safe-area-inset);
+}
+html,
+body, #root {
+  width: 100%;
+  height: 100%;
+  /* min-height: 100vh; */
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  position: relative;
+}
+
+/* Global style to hide all scrollbars by default */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom class to show and style the scrollbar */
+.show-scrollbar {
+  &::-webkit-scrollbar {
+    display: block;
+    width: 8px; /* Width of the scrollbar */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5); /* Color of the scrollbar thumb */
+  }
+  &::-webkit-scrollbar-track {
+    background: #2256B2; /* Background of the scrollbar track */
+  }
+}
+
+/* For browsers that support scrollbar styling but not the -webkit- prefix */
+.show-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) #2256B2;
+}
+
+.promo_modal::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  border-radius: 10px;
+}
+.promo_modal::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,.5);
+}
+
+.single-grp{
+  width: 100%;
+}
+.single-grp:nth-child(1) .claim_box{
+  max-width: 33%;
+}
+.single-grp:nth-child(2) .claim_box{
+  max-width: 100%;
+}
+.single-grp:nth-child(3) .claim_box{
+  max-width: 100%;
+}
+.single-grp:nth-child(4) .claim_box{
+  max-width: 100%;
+}
+.single-grp:nth-child(2){
+  width: calc(33.33% - 5px);
+}
+.single-grp:nth-child(3){
+  width: calc(33.33% - 5px);
+}
+.single-grp:nth-child(4){
+  width: calc(33.33% - 5px);
+}
+.single-grp .claim_box{
+  flex: 1;
+}
+
+/* .rotate-message {
+  display: none;
+} */
+/* @media screen and (orientation: portrait) {
+  .App {
+
+  }
+  .rotate-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#1276e6, #116FDF, #0E66CE, #0F62CA, #0C5BC2, #094FB5, #0B49AD, #0843A5, #053999, #063492 );
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+} */
+.game_iframe {
+  position: relative;
+  z-index: -1;
+}
+@media screen and (orientation: portrait){
+.game_iframe{
+  height: 100vw;
+}
+}
+@media screen and (orientation: landscape){
+  .game_iframe{
+    height: 100vh;
+  }
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (orientation: portrait) and (max-width: 500px) {
+.ctc_container, .promo_modal{
+  max-height: 42vh;
+}
+}
+@media screen and (orientation: landscape) and (max-height: 500px) {
+.ctc_container, .promo_modal{
+  max-height: 42vw;
+}
+}
+
+@media screen and (orientation: portrait) and (max-width: 500px) {
+/* .change-pswd-container{
+  max-height: 30vh;
+} */
+.change_pswd_inputs p, .not_null_text, .chnage_pswd_btns div{
+  font-size: 1em !important;
+}
+}
+@media screen and (orientation: landscape) and (max-height: 500px) {
+/* .change-pswd-container{
+  max-height: 30vw;
+} */
+.change_pswd_inputs p, .not_null_text, .chnage_pswd_btns div{
+  font-size: 1em !important;
+}
+}
+
+@media screen and (orientation: portrait) and (max-width: 500px) {
+/* .history_container{
+  height: 30vh;
+} */
+.history_table{
+  margin-top: 1rem;
+}
+.no_data_found{
+  padding: 1rem 0 !important;
+}
+.history_table tbody tr td, .history_table thead tr th, .history_date span, .history-tabs_container .history-tab, .no_data_found{
+  font-size: 0.9em !important;
+}
+}
+@media screen and (orientation: landscape) and (max-height: 500px) {
+/* .history_container{
+  height: 30vw;
+} */
+.history_table{
+  margin-top: 1rem;
+}
+.no_data_found{
+  padding: 1rem 0 !important;
+}
+.history_table tbody tr td, .history_table thead tr th, .history_date span, .history-tabs_container .history-tab, .no_data_found{
+  font-size: 0.9em !important;
+}
+}
+
+.message-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-container .logo {
+  width: 35dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container .message {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Chats */
+/* .chat-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  z-index: 100;
+} */
+
+.chat-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* width: 100%; */
+  /* max-width: 430px; */
+  /* height: 700px; */
+  /* padding-bottom: 60px; */
+  /* background: #000; */
+  z-index: 100;
+}
+
+.chat-box .unreadMessage {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.chat-container {
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transform: translateY(-100%);
+}
+
+.chat-container.open {
+  height: auto;
+}
+
+.toggle-chat-btn-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1276e6;
+  /* position: absolute; */
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin:  0 10px 10px auto;
+}
+
+.toggle-chat-btn {
+  color: #fff;
+  font-size: 22px;
+}
+
+.chat-iframe {
+  width: 700px;
+  height: 800px;
+}
+
+@media screen and (orientation: portrait) and (max-width: 500px) {
+  .chat-iframe{
+    width: 500px;
+    height: 300px;
+  }
+  }
+  @media screen and (orientation: landscape) and (max-height: 500px) {
+  .chat-iframe{
+    width: 500px;
+    height: 300px;
+  }
+  }
+
+.chat-iframe body{
+  padding: 0;
+}

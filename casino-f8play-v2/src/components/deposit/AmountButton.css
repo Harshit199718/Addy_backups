@@ -1,0 +1,21 @@
+.amount-button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.amount-button {
+    width: calc(25% - 7.5px);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #0000ff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background: #4e6eeb;
+    color: #fff;
+}

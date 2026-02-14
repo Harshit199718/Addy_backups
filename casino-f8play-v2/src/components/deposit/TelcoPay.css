@@ -1,0 +1,40 @@
+.telcoPay_popup{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+  .telcoPay_popup .telcoPay_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .telcoPay_popup p{
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .telcopay_tabs{
+    border: 1px solid #596FD6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .telcopay_tabs a{
+    border-radius: 5px;
+    padding: 10px 25px;
+    display: inline-block;
+    color: white;
+  }
+  .coupon-code-box input{
+    width: 32%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .coupon-code-box span{
+    color: white;
+      font-size: 24px;
+      margin: 0 5px;
+  }
+  .amt_blocks{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+  }

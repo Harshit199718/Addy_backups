@@ -1,0 +1,10 @@
+.custom-menu .ant-menu-submenu-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.custom-menu .ant-menu-submenu-arrow {
+    margin-right: 165px; /* Adjust the spacing as needed */
+    transform: rotate(180deg); /* Rotate the arrow to point left */
+}

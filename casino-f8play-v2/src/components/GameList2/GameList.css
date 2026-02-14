@@ -1,0 +1,149 @@
+.lobby-page_container {
+  height: 100%;
+  width: 100%;
+}
+#lobby-page {
+  width: 100%;
+  height: 75.6%;
+}
+
+#categories {
+  width: 20%;
+}
+
+#categories .categories_container {
+  width: 100%;
+}
+
+.translate-x-custom_C {
+  transform: translateX(-100%);
+}
+
+.translate-x-custom_G {
+  transform: translateX(-20%);
+}
+
+.categories_container-outer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.categories_container {
+  background: #0d1b28;
+  position: relative;
+}
+
+.categories_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #020c26,
+    #020c26,
+    #00143a,
+    #00163c,
+    #032457,
+    #032457,
+    #0c3c78,
+    #105293,
+    #125395,
+    #1364a8,
+    #126aad,
+    #1268aa,
+    #1268aa,
+    #1268aa
+  );
+}
+
+.category {
+  width: 100%;
+  padding: 30px 20px;
+  border-bottom: 2px solid #0a0c1e;
+  border-top: 2px solid #26283a;
+}
+
+.category-name {
+  font-size: 1.2em;
+  color: #a0b7f3;
+}
+
+.min-w-custom {
+  min-width: calc(100% - 20vw);
+}
+
+.game-list-images {
+  /* width: 18vw; */
+  /* height: 80%; */
+}
+
+.inapp-games-img {
+  height: 50%;
+  width: auto;
+}
+.game-img {
+  height: 100%;
+  width: 222px;
+}
+
+.game-list {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected-game-image {
+  width: 150px;
+}
+
+.provider-title {
+  font-size: 3em;
+}
+.clipboard-wrap{
+  padding: 7px 10px 7px 18px;
+  border-radius: 10px;
+  width: 70%;
+  background: white;
+}
+.download_btns a{
+  width: 48%;
+    height: 100%;
+    border-radius: 6px;
+    background: linear-gradient( #0fa9e9, #0576c3, #104190, #093079, #04144c, #041047, #0b2f7b );
+    line-height: 100%;
+    color: #fff;
+    box-shadow: 0px 2px 2px #4FBBE3;
+    font-size: 1em;
+    padding: 10px 0px;
+    border: 0.2vw solid #000;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (orientation: portrait) and (max-width: 567px),
+(orientation: landscape) and (max-height: 567px) {
+  .selected-game-image {
+    width: 75px;
+  }
+  .game-img {
+    width: 140px;
+  }
+}
+@media screen and (orientation: portrait) and (max-width: 500px) {
+  .download-app-info{
+    max-height: 30vh;
+  }
+  }
+  @media screen and (orientation: landscape) and (max-height: 500px) {
+  .download-app-info{
+    max-height: 30vw;
+  }
+  }

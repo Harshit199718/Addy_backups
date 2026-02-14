@@ -1,0 +1,63 @@
+.top-winnings-title {
+    padding: 8px;
+    padding-bottom: 0;
+    margin-top: 8px;
+  }
+  
+  .top-winnings_container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #FFC107;
+    border-radius: 10px;
+    margin-top: 8px;
+  }
+  
+  .top-winning {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-winning .top-winning-image_container {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .top-winning-image_container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .top-winning .top-winning-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .top-winning-button {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background: #1F71C9;
+  }
+  @media screen and (orientation: portrait) and (max-width: 500px) {
+    .top-winning .top-winning-image_container{
+          width: 170px;
+          height: 170px;
+    }
+    }
+    @media screen and (orientation: landscape) and (max-height: 500px) {
+    .top-winning .top-winning-image_container{
+          width: 170px;
+          height: 170px;
+    }
+    }

@@ -1,0 +1,59 @@
+.history_header .history-gaming{
+    background: #08317C;
+    color: #06d6fa;
+    padding: 1.7rem 8rem ;
+    font-size: 1.875em;
+}
+.history-tabs_container {
+    border: 3px solid #08317C;
+}
+.history-tabs_container .history-tab {
+    font-size: 1.5em;
+    color: #fff;
+}
+.history-tabs_container .history-tab.active {
+    background: #2256B2;
+}
+.history_header span, .change_pswd_header span{
+    padding: 14px 17px ;
+    box-shadow:2px 3px 1px 0px #0BA3D4;
+    background-image: linear-gradient(to bottom, #FB9E6E, #FF795B, #F9312A);
+}
+.history_date span{
+    color: #FFDA6C;
+    font-weight: 700;
+    font-size: 1.875em;
+    padding: 10px 20px;
+
+}
+.customDatePicker legend{
+    display: none;
+}
+.customDatePicker fieldset{
+    top: 0px;
+    border-color: transparent;
+}
+.history_date>div {
+    /* width: 51.15%; */
+    width: 100%;
+}
+.history_date input{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 3px solid #39BAFB;
+    background: #08337F;
+    color: #07EEFE;
+    font-size: 1.56em;
+}
+@media (orientation: portrait) and (max-width: 576px),
+  (orientation: landscape) and (max-height: 576px) {
+  /* Styles for both conditions */
+  .history_date input {
+    font-size: 1em;
+    padding: 5px;
+  }
+  .history_container{
+    height: 290px;
+  }
+}

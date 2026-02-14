@@ -1,0 +1,110 @@
+[
+    {
+        "key": "predefinedMessages",
+        "title": "Predefined Messages",
+        "settings": [
+            {
+                "key": "welcome",
+                "title": "Welcome Message",
+                "value": "Hello {username}, Welcome to {sitename}!",
+                "field": "richtext"
+            },
+            {
+                "key": "deposit",
+                "title": "Deposit Message",
+                "value": "Dear {username}, Your Deposit of Amount: {amount} is Successful, Deposit ID: {depositId} {remark}.",
+                "field": "richtext"
+            },
+            {
+                "key": "depositPending",
+                "title": "Deposit Pending",
+                "value": "Dear {username}, Your Deposit Request of Amount: {amount} is Received.",
+                "field": "richtext"
+            },
+            {
+                "key": "depositFailure",
+                "title": "Deposit Failure",
+                "value": "Dear {username}, Your Deposit of Amount: {amount} is {status}. Due to {remark}",
+                "field": "richtext"
+            },
+            {
+                "key": "withdraw",
+                "title": "Withdraw Message",
+                "value": "Dear {username}, Your Withdraw of {amount} is Successful. Forfeited {forfeit}",
+                "field": "richtext"
+            },
+            {
+                "key": "withdrawPending",
+                "title": "Withdraw Pending",
+                "value": "Dear {username}, Your Withdraw Request of {amount} is Received.",
+                "field": "richtext"
+            },
+            {
+                "key": "withdrawFailure",
+                "title": "Withdraw Failure",
+                "value": "Dear {username}, Your Withdraw of Amount: {amount} is {status}. Due to {remark}",
+                "field": "richtext"
+            }
+        ]
+    },
+    {
+        "key": "colors",
+        "title": "Colors",
+        "settings": [
+            {
+                "key": "primary",
+                "title": "Primary Color",
+                "value": "#7792B1",
+                "field": "color"
+            },
+            {
+                "key": "secondary",
+                "title": "Secondary Color",
+                "value": "#6993FF",
+                "field": "color"
+            },
+            {
+                "key": "tertiary",
+                "title": "Tertiary Color",
+                "value": "#ddd",
+                "field": "color"
+            }
+        ]
+    },
+    {
+        "key": "quickMessages",
+        "title": "Quick Messages",
+        "settings": [
+            {
+                "key": "quickmessage1",
+                "title": "Quick Message 1",
+                "value": "Hello, How can I help you?",
+                "field": "richtext"
+            },
+            {
+                "key": "quickmessage2",
+                "title": "Quick Message 2",
+                "value": "Thanks for contacting us!",
+                "field": "richtext"
+            }
+        ]
+    },
+    {
+        "key": "agentProfile",
+        "title": "Agent Profile",
+        "settings": [
+            {
+                "key": "agentImage",
+                "title": "Agent Image",
+                "value": "user_img.png",
+                "field": "image"
+            },
+            {
+                "key": "agentName",
+                "title": "Agent Name",
+                "value": "Agent",
+                "field": "text"
+            }
+        ]
+    }
+]

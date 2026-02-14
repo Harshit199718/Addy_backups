@@ -1,0 +1,28 @@
+{
+  "name": "BLUE88",
+  "short_name": "BLUE88",
+  "description": "BLUE88 the trusted Online Casino Malaysia rich with online gambling Malaysia games such as Roulette, Baccarat, and Slots.",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+  

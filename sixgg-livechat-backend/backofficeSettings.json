@@ -1,0 +1,26 @@
+[
+    {
+        "key": "colors",
+        "title": "Colors",
+        "settings": [
+            {
+                "key": "primary",
+                "title": "Primary Color",
+                "value": "#7792B1",
+                "field": "color"
+            },
+            {
+                "key": "secondary",
+                "title": "Secondary Color",
+                "value": "#6993FF",
+                "field": "color"
+            },
+            {
+                "key": "tertiary",
+                "title": "Tertiary Color",
+                "value": "#ddd",
+                "field": "color"
+            }
+        ]
+    }
+]

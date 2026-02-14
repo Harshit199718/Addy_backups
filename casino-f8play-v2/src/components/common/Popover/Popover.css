@@ -1,0 +1,23 @@
+#popover_container {
+    position: absolute;
+    width: fit-content;
+    top: 0;
+    transform: translate(-50%,calc(-108% - 15px));
+    background: linear-gradient(#423C4F,#433A58, #413756, #3F3554, #3D344F, #3B3549, #3A2F4A, #362B41, #32293E, #31293E, #2E283C, #30253B, #2F243A, #2E2437);
+    border: 2px solid #685D86;
+    border-radius: 12px;
+    left: 50%;
+}
+
+#popover_container::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transform: translateX(-50%) rotate(45deg);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    background: linear-gradient(-45deg,  #3A2F4A, #362B41, #32293E, #31293E, #2E283C, #30253B, #2F243A, #2E2437);
+    z-index: -1;
+}

@@ -1,0 +1,57 @@
+/* src/Layout.css */
+.app_container_layout {
+  /* Force landscape orientation */
+  /* width: 100dvw;
+  height: 56.25dvw; */
+  /* max-height: 100vh; */
+  overflow: hidden;
+  position: relative;
+  transform-origin: center center;
+  font-size: 16px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app_container_layout > * {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+/* Adjust based on the actual device orientation */
+/* @media (orientation: portrait) and (max-width: 567px) {
+    .app_container_layout {
+        transform: rotate(90deg) translateY(-100%);
+        transform-origin: 0% 0%;
+        width: 100vh;
+        height: 100vw;
+        font-size: 10px;
+    }
+} */
+
+@media (orientation: portrait){
+  /* Styles for both conditions */
+  .app_container_layout {
+    transform: rotate(90deg) translate(-50%, -50%);
+    transform-origin: 0% 0%;
+    /* width: 100dvh;
+    height: 56.25dvh;
+    max-height: 100vw; */
+  }
+}
+@media (orientation: portrait) and (max-width: 567px),
+  (orientation: landscape) and (max-height: 567px) {
+  /* Styles for both conditions */
+  .app_container_layout {
+    font-size: 10px;
+  }
+}
+@media (orientation: portrait) and (max-width: 400px),
+  (orientation: landscape) and (max-height: 400px) {
+  /* Styles for both conditions */
+  .app_container_layout {
+    font-size: 5px;
+  }
+}

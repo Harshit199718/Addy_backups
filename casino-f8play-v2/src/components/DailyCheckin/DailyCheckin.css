@@ -1,0 +1,77 @@
+.checkin-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    padding-bottom: 12px;
+    /* padding-top: 20%; */
+    /* background: rgba(0,0,0,.8); */
+    /* background: linear-gradient(
+        #061c41,
+        #061d45,
+        #041e45,
+        #041e45,
+        #041e45,
+        #031d42,
+        #011b3c
+      ); */
+      /* background: url(../../assets/images/checkin_bg.png); */
+      background-size: 100%;
+  }
+  
+  .checkin-container .title {
+    color: white !important;
+    font-weight: 500;
+    font-size: .9rem;
+  }
+  
+  .day-container {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .day-container .day-box {
+    /* width: 25%; */
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C2C2C;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  .day-container .day-box .day-inner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .day-inner-box.checked {
+    background: rgb(78, 131, 0);
+  } */
+  .day-box .day {
+    font-size: .9rem;
+    /* color: #fff !important; */
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 5px !important;
+  }
+
+  .claim-btn button {
+    font-size: 1em;
+  }
+
+  @media (orientation: portrait) and (max-width: 400px),
+  (orientation: landscape) and (max-height: 400px) {
+    .claim-btn button{
+        font-size: .4em;
+    }
+  }

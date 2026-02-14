@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    image: ${CI_REGISTRY_IMAGE}:${TAG}
+    ports:
+      - "8000:8000"
+    environment:
+      NODE_ENV: production
+    working_dir: /usr/src/app/
+    command: ["npm", "run", "start"]
+
+  #   depends_on:
+  #     - redis
+
+  # redis:
+  #   image: redis:alpine
+  #   restart: always
+  #   command: ["redis-server", "--bind", "redis", "--protected-mode", "no", "--appendonly", "yes"]
+  #   ports:
+  #     - "6379:8000"

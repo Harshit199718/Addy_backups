@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #000;
+  font-family: "Roboto", sans-serif !important;
+}
+
+@font-face {
+  font-family: "advanced_dot_digital7";
+  src: url("./fonts/advanced_dot_digital-7.woff2") format("woff2"), url("./fonts/advanced_dot_digital-7.ttf") format("truetype");
+}
+
+.signup-popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.signup-popup-content .message {
+  font-size: 2em;
+  margin-top: 10%;
+}
+
+.signup-popup-content p, .signup-popup-content p .redirect {
+  font-size: 1em;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.signup-popup-content p .redirect {
+  color: #fff;
+}
+
+.signup-popup-content .redirect .click-here-btn {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.signup-popup-content .icon-container {
+  position: absolute;
+  top: 0;
+  transform: translateY(-60%);
+}

@@ -1,0 +1,33 @@
+import { createSlice } from '@reduxjs/toolkit';
+
+const userSlice = createSlice({
+  name: 'user',
+  initialState: {
+    currentUser: localStorage.getItem("user"),
+    tacSent: false,
+    stealthLogin: false,
+    signupSuccess: false
+  },
+  reducers: {
+    setCurrentUser(state, action){
+      state.currentUser = action.payload
+    },
+    afterTacSent(state, actions){
+      state.tacSent = actions.payload;
+    },
+    setStealthLogin(state, action){
+      state.stealthLogin = action.payload
+    },
+    setSignupSuccess(state, action){
+      state.signupSuccess = action.payload
+    },
+  },
+});
+
+export const selectCurrentUser = state => state.user.currentUser
+export const isTacSent = state => state.user.tacSent
+export const selectSignupSuccess = state => state.user.signupSuccess
+
+export const {setCurrentUser, afterTacSent, setStealthLogin, setSignupSuccess} = userSlice.actions;
+
+export default userSlice.reducer;

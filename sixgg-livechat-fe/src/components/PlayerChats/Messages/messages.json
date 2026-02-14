@@ -1,0 +1,203 @@
+[
+    {
+      "type": "text",
+      "message": "Hello, how are you today?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:00:00.000Z",
+      "updatedAt": "2024-04-23T10:00:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "I'm good, thanks! How about you?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:05:00.000Z",
+      "updatedAt": "2024-04-23T10:05:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Not too bad. Been working on the new project.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:10:00.000Z",
+      "updatedAt": "2024-04-23T10:10:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "That sounds interesting. Tell me more!",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:15:00.000Z",
+      "updatedAt": "2024-04-23T10:15:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Well, it's a new web application for managing tasks.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:20:00.000Z",
+      "updatedAt": "2024-04-23T10:20:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Oh nice, do you need any help with that?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:25:00.000Z",
+      "updatedAt": "2024-04-23T10:25:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Maybe! I might need some front-end development assistance.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:30:00.000Z",
+      "updatedAt": "2024-04-23T10:30:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Count me in! I'd love to contribute.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:35:00.000Z",
+      "updatedAt": "2024-04-23T10:35:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Great, I'll send you the details later today.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:40:00.000Z",
+      "updatedAt": "2024-04-23T10:40:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Looking forward to it!",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:45:00.000Z",
+      "updatedAt": "2024-04-23T10:45:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Have you had lunch yet?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T10:50:00.000Z",
+      "updatedAt": "2024-04-23T10:50:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Not yet, planning to go soon. You?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T10:55:00.000Z",
+      "updatedAt": "2024-04-23T10:55:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Just had a quick snack. Maybe we can grab something later.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:00:00.000Z",
+      "updatedAt": "2024-04-23T11:00:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Sounds good! Let me know when you're free.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:05:00.000Z",
+      "updatedAt": "2024-04-23T11:05:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Will do. Catch you later!",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:10:00.000Z",
+      "updatedAt": "2024-04-23T11:10:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Bye for now!",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:15:00.000Z",
+      "updatedAt": "2024-04-23T11:15:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Don't forget to send me those details!",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:20:00.000Z",
+      "updatedAt": "2024-04-23T11:20:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Absolutely, will do it in an hour.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:25:00.000Z",
+      "updatedAt": "2024-04-23T11:25:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Thanks! See you.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:30:00.000Z",
+      "updatedAt": "2024-04-23T11:30:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Welcome! Bye.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:35:00.000Z",
+      "updatedAt": "2024-04-23T11:35:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Can you review the document I sent?",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:40:00.000Z",
+      "updatedAt": "2024-04-23T11:40:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Checking it now.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:45:00.000Z",
+      "updatedAt": "2024-04-23T11:45:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Let me know if there are any changes needed.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T11:50:00.000Z",
+      "updatedAt": "2024-04-23T11:50:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Looks good overall, just a few minor edits.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499522e2382f0fce0fe0",
+      "createdAt": "2024-04-23T11:55:00.000Z",
+      "updatedAt": "2024-04-23T11:55:00.000Z"
+    },
+    {
+      "type": "text",
+      "message": "Perfect, I'll make those changes.",
+      "chatId": "6626499522e2382f0fce0fe2",
+      "sender": "6626499222e2382f0fce0fa3",
+      "createdAt": "2024-04-23T12:00:00.000Z",
+      "updatedAt": "2024-04-23T12:00:00.000Z"
+    }
+  ]
+  

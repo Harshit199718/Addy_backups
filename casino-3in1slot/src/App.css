@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #000;
+  font-family: "Roboto", sans-serif !important;
+}
+
+@font-face {
+  font-family: "advanced_dot_digital7";
+  src: url("./fonts/advanced_dot_digital-7.woff2") format("woff2"), url("./fonts/advanced_dot_digital-7.ttf") format("truetype");
+}

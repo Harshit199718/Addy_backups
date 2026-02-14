@@ -1,0 +1,51 @@
+.bank-list-container {
+    margin-bottom: 10px;
+
+    .label {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 5px;
+        color: white;
+    }
+    .banks {
+        padding: 1rem;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .banks-info {
+        margin-top: 5px;
+        padding: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        color: white !important;
+        width: 100%;
+    }
+      
+    .banks-info table {
+        width: 100%;
+    }
+}
+    
+
+.bank-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 30.5%;
+
+    .name {
+        font-size: 12px;
+        /* font-weight: ${props=> props.$selected?"700":"100"}; */
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

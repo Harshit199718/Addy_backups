@@ -1,0 +1,22 @@
+@media (orientation: portrait){
+    /* Styles for both conditions */
+    .custom-transition-modal {
+      transform: rotate(90deg) translateY(-100%);
+      transform-origin: 0% 0%;
+      width: 100dvh;
+      height: 100dvw;
+    }
+  }
+  .modal-close{
+    font-size: 1.5em;
+  }
+  @media screen and (orientation: portrait) and (max-width: 500px) {
+    .modal-close{
+      font-size: 1em;
+    }
+    }
+    @media screen and (orientation: landscape) and (max-height: 500px) {
+    .modal-close{
+      font-size: 1em;
+    }
+    }

@@ -1,0 +1,134 @@
+
+.tick-counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.tick-counter-container .c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tick-credits {
+  display: none !important;
+}
+
+.tick {
+  display: inline-block;
+  /* font-size: 0.5em; */
+}
+
+.tick-flip {
+  min-width: 17px !important;
+  min-height: 0px;
+  border-radius: 4px !important;
+  border: 1px solid #e6960c;
+  box-shadow: 0 0 6px rgba(230, 150, 12, 0.8),
+    /* Outer shadow */ 0 0 6px rgba(230, 150, 12, 0.8) inset; /* Inner shadow */
+}
+
+.tick-flip-panel {
+  background: linear-gradient(to top, #c1c1c1, #fff);
+  color: #000 !important;
+}
+
+.tick-flip-panel-text-wrapper {
+  font-size: 1.1rem;
+}
+
+.number-increment-counter {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.digit {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+
+.digit.scroll {
+  animation: scroll-animation 0.3s ease-in-out;
+}
+
+@keyframes scroll-animation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  75% {
+    transform: translateY(-75%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.countdown-header {
+  /* font-size: 1.5vw; */
+  font-weight: 400;
+  color: #fcfff7;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.countdown-header p {
+  line-height: normal;
+  font-weight: 700;
+  -webkit-transform: scale(1.5, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.5, 1); /* Firefox */
+  -ms-transform: scale(1.5, 1); /* IE 9 */
+  -o-transform: scale(1.5, 1); /* Opera */
+  transform: scale(1.5, 1);
+  text-shadow: 2px 2px 2px #b49619, -2px -2px 2px #b49619;
+}
+.tick,
+.tick-flip-panel-text-wrapper,
+.tick-flip-panel-back-text,
+.tick-flip-panel-front-text {
+  font-size: 1em !important;
+}
+.countdown-header h5 {
+  font-size: 1.87em;
+  font-weight: 800;
+  color: #4c4217;
+  -webkit-transform: scale(2, 1.4); /* Safari and Chrome */
+  -moz-transform: scale(2, 1.4); /* Firefox */
+  -ms-transform: scale(2, 1.4); /* IE 9 */
+  -o-transform: scale(2, 1.4); /* Opera */
+  transform: scale(2, 1.4);
+  text-shadow: -2px 2px 0 #fee65e, 2px 2px 0 #fee65e, 2px -2px 0 #fee65e,
+    -2px -2px 0 #fee65e;
+}
+@media only screen and (max-width: 1366px){
+  .countdown-header {
+    margin-bottom: 2px;
+  }
+  .countdown-header h5 {
+    font-size: 1.2em !important;
+  }
+  .jackpot-ticker-container{
+    padding-top: 2px;
+  }
+  #footer .special-bonus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1366px){
+  .jackpot-ticker-container{
+    padding: 0.75rem 0;
+  }
+}
